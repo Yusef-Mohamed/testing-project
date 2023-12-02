@@ -6,7 +6,8 @@
   --borderGray: #c9c9c9;
 }
 .search-section {
-  margin: 100px 0;
+  width: fit-content;
+  margin: 150px auto;
 }
 .search-section h3,
 .search-section h4 {
