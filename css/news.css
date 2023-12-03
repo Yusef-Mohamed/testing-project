@@ -5,13 +5,26 @@
   --gray: #ffffff26;
   --borderGray: #c9c9c9;
 }
+
 .baner {
   background-image: url("../images/banners/news.webp");
   background-color: white;
   color: white;
   font-size: 26px;
   position: relative;
-  padding: 100px;
+  padding: 150px 80px;
+}
+@media (max-width: 768px) {
+  .baner {
+    padding: 150px 50px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .baner {
+    padding: 100px 20px;
+    font-size: 16px;
+  }
 }
 .baner h1 {
   position: relative;
